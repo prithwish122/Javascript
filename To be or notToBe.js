@@ -13,7 +13,7 @@ var expect = function(val) {
         } else {
             throw new Error("Equal")
         }
-    }
+    }   
 
     return {
         toBe,
