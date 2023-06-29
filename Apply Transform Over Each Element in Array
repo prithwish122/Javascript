@@ -4,6 +4,6 @@ var map = function(arr, fn) {
     {
         toReturnArr[i]=fn(arr[i],i);
     }
-    return toReturnArr   
+    return toReturnArr     
 };
   
