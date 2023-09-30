@@ -8,7 +8,7 @@ var expect = function(val) {
     }   
 
     function notToBe(compair){
-        if(val !== compair){
+        if(val !== compair){ 
             return true
         } else {
             throw new Error("Equal")
