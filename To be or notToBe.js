@@ -4,7 +4,7 @@ var expect = function(val) {
             return true
         } else { 
             throw new Error('Not Equal')
-        }
+        } 
     }   
 
     function notToBe(compair){
