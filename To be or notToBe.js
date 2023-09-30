@@ -2,7 +2,7 @@ var expect = function(val) {
     function toBe(compair) {
         if(val === compair){
             return true
-        } else {
+        } else { 
             throw new Error('Not Equal')
         }
     }   
