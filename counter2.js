@@ -8,7 +8,7 @@ var createCounter = function(init) {
     {
         c--;
         return c;
-
+ 
     }
     function reset(){ 
         c=init;
