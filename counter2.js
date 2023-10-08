@@ -10,7 +10,7 @@ var createCounter = function(init) {
         return c;
 
     }
-    function reset(){
+    function reset(){ 
         c=init;
         return c;
     }
